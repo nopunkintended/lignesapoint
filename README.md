@@ -2,8 +2,18 @@
 
 In order to provide a working environment for an interconnected tool, and such turning it into an available microservice piece for a more complex structure, a segregated daemon is required. Applying this principle to current technologies provides us with the _API-in-a-Container template_. The **Docker-Minideb-Supervisor-Hug stack** is an application of this template.
 
-## DMSH
-- [**docker**](https://github.com/docker): platform built for developers to build and run applications.
-- [**minideb**](https://github.com/bitnami/minideb): small image based on Debian by bitnami.
-- [**supervisor**](https://github.com/Supervisor/supervisor): process control system for UNIX.
-- [**hug**](https://github.com/timothycrosley/hug): APIs, as simple as possible, but no simpler.
+## API-in-a-Container
+- Container: [*docker*](https://github.com/docker) - platform built for developers to build and run applications.
+- System: [*minideb*](https://github.com/bitnami/minideb) - small image based on Debian by bitnami.
+- Manager: [*supervisor*](https://github.com/Supervisor/supervisor) - process control system for UNIX.
+- API: [*hug*](https://github.com/timothycrosley/hug) - APIs, as simple as possible, but no simpler.
+- *your code here*
+
+## The Container level
+Building the microservice inside an isolated and portable environment allows for:
+- easier **integration** (isolating constraints and requirements)
+- easier **delivery** (regarding distribution and transportability issues)
+
+Note that any internal or intermediate infrastructure (e.g.: development environments, CI/CD toolchains) benefits from the same advantages as the final complex structure.
+
+Aside from Docker, options for the Container level could go from fully-virtualized machines to segregated environment variables. Docker provides a good compromise between the learning curve and the features versus limitations ratio. Distribution infrastructure already exists through the Docker hub system. Same goes for containers management system, providing an eventual basis for the complex structure.
