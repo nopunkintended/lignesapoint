@@ -27,4 +27,5 @@ Note that templating easier optimisation and easier design in the same level pro
 
 Aside from [minideb](https://github.com/bitnami/minideb), options for the System level could go from fully-fledged corporate system to Linux From Scratch. Minideb provides a good compromise between access to open-source software and the user-friendly versus weight ratio. Minideb is shipped with a self-cleaning variant of a package installer in a common server-oriented open-source system, already providing support for both optimisation and design.
 
-One of the winning-side of the System level being (more or less) independant from the underlying structure is not only the microservice portability (being packed) but also the freedom of work for the microservice crafter. Providing a more friendly environment without most of its constraints on the underlying structure to crafters outside of the system field is a huge plus regarding democratic access to innovation, thus to the overall capabilities of complex structures.
+## Side-benefits
+Including a Container level in the template decouples the underlying structure and the microservice constraints. Providing a more virgin environnment to crafters is a huge plus regarding democratic access to innovation and thus the overall capabilities of complex structures.
