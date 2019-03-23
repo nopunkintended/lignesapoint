@@ -16,7 +16,7 @@ Building the microservice inside an isolated and portable environment allows for
 
 Note that any internal or intermediate infrastructure (e.g.: development environments, CI/CD toolchains) benefits from the same advantages as the final complex structure.
 
-Aside from Docker, options for the Container level could go from fully-virtualized machines to segregated environment variables. Docker provides a good compromise between the learning curve and the features versus limitations ratio. Distribution infrastructure already exists through the Docker hub system. Same goes for containers management system, providing an eventual basis for the complex structure.
+Aside from [Docker](https://github.com/docker), options for the Container level could go from fully-virtualized machines to segregated environment variables. Docker provides a good compromise between the learning curve and the features versus limitations ratio. Distribution infrastructure already exists through the Docker hub system. Same goes for containers management system, providing an eventual basis for the complex structure.
 
 ## The System level
 Benefeting from the Container segregation for the microservice System allows for:
@@ -25,6 +25,6 @@ Benefeting from the Container segregation for the microservice System allows for
 
 Note that templating easier optimisation and easier design in the same level provides a common playfield between low- and high-level requirements.
 
-Aside from minideb, options for the System level could go from fully-fledged corporate system to Linux From Scratch. Minideb provides a good compromise between access to open-source software and the user-friendly versus weight ratio. Minideb is shipped with a self-cleaning variant of a package installer in a common server-oriented open-source system, already providing support for both optimisation and design.
+Aside from [minideb](https://github.com/bitnami/minideb), options for the System level could go from fully-fledged corporate system to Linux From Scratch. Minideb provides a good compromise between access to open-source software and the user-friendly versus weight ratio. Minideb is shipped with a self-cleaning variant of a package installer in a common server-oriented open-source system, already providing support for both optimisation and design.
 
 One of the winning-side of the System level being (more or less) independant from the underlying structure is not only the microservice portability (being packed) but also the freedom of work for the microservice crafter. Providing a more friendly environment without most of its constraints on the underlying structure to crafters outside of the system field is a huge plus regarding democratic access to innovation, thus to the overall capabilities of complex structures.
