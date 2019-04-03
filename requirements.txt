@@ -1,2 +1,4 @@
 hug
+Pillow
+requests
 uwsgi
